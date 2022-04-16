@@ -1,0 +1,55 @@
+.side{
+    margin-left: 500px;
+    display:inline-block;
+}
+
+.front{
+    display: inline-block;
+    width: 33%;
+    font-family: 'proxima-nova', sans-serif;
+    transform: skew(20deg);
+    height: 650px;
+    background-color:#13639e;
+    background-image: linear-gradient(to left, #13639e, #0d7ccb);
+}
+
+
+.DInDavis{
+    transform: skew(-20deg);
+    color: #FFC519;
+    display: inline-block;
+    font-size: 125px;
+}
+.AvisInDavis{
+    color: black;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.DInDining{
+    transform: skew(-20deg);
+    color: #022851;
+    display: inline-block;
+    font-size: 125px;
+}
+.IningInDining{
+    color: black;
+    display: inline-block;
+    font-size: 50px
+}
+
+.CInCommons{
+    transform: skew(-20deg);
+    color:#FFC519;
+    display: inline-block;
+    font-size: 125px;
+}
+.OmmonsInCommon{
+    color: black;
+    display: inline-block;
+    font-size: 50px
+}
+
+.tecero{
+    display: inline-block;
+}
