@@ -9,41 +9,7 @@
 }
 
 
-.tercero{
-    width: 300px;
-    font-weight: 600;
-    background-color: #022851;
-    color: #ffc519;
-    margin-bottom: 50px;
-    border-radius: 0px;
-}
 
-.segundo{
-    width: 300px;
-    font-weight: 600;
-    background-color: #022851;
-    color: #ffc519;
-    margin-bottom: 50px;
-    border-radius: 0px;
-}
-
-.latitude{
-    font-weight: 600;
-    width: 300px;
-    background-color: #022851;
-    color: #ffc519;
-    margin-bottom: 50px;
-    border-radius: 0px;
-}
-
-.cuarto{
-    font-weight: 600;
-    width: 300px;
-    background-color: #022851;
-    color: #ffc519;
-    margin-bottom: 50px;
-    border-radius: 0px;
-}
 
 .Menu{
     font-size: 40px;
@@ -102,6 +68,42 @@ button {
     background-color: white;
 }
 
+.tercero{
+    width: 300px;
+    font-weight: 600;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.segundo{
+    width: 300px;
+    font-weight: 600;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.latitude{
+    font-weight: 600;
+    width: 300px;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.cuarto{
+    font-weight: 600;
+    width: 300px;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
 #diet-types-btn {
     border-bottom: none;
 }
@@ -133,5 +135,3 @@ h3 {
     border: none;
 }
 
-.teceroBtn{
-}
