@@ -134,9 +134,9 @@ button {
 
 .filter-btn {
     background-color: #ffc519;
+    border-radius: 5px;
+    border: 2px solid black;
 }
-
-
 
 
 #diet-types-btn {
