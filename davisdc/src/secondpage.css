@@ -4,6 +4,10 @@
     width: 800px;
 }
 
+.selection{
+    background-color: #022851;
+}
+
 
 .tercero{
     width: 300px;
@@ -44,7 +48,7 @@
 .Menu{
     font-size: 40px;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 400px;
     height: 500px;
     width: 800px;
     background-color: white;
@@ -103,6 +107,7 @@ button {
 }
 
 h2 {
+    background-color:white;
     font-size: 25px;
     padding: 5px;
     font-weight: bold;
@@ -117,4 +122,16 @@ h3 {
     position: absolute;
     top: 50px;
     left: 40px;
+}
+
+.filter-btn {
+    background: #ffc519;
+}
+
+.reset-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.teceroBtn{
 }

@@ -5,6 +5,8 @@ import Tercero from "./tercerodc.jpg"
 import Segundo from "./segundodc.jpg";
 import Latitude from "./latitudedc.jpg";
 import Cuarto from "./cuartodc.jpg";
+import UCDavis from "./ucdavis.jpg";
+
 
 
 function SecondPage(){
@@ -78,7 +80,7 @@ function SecondPage(){
                     <div className = "terceroPNG">
                     <img src = {Tercero} width={300} height={150}/>
                     </div>
-                    <Button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true);}}>Tercero</Button>				
+                    <Button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true); displayComponentThree(true)}}>Tercero</Button>				
                     <div className = "segundoPNG">
                     <img src = {Segundo} width={300} height={150}/>
                     </div>
@@ -102,7 +104,7 @@ function SecondPage(){
             <div>
                 <Container>
                     <Row>
-                        <div className = "Menu">
+                        <div className = "Menu" style={{width: "60%"}}>
                             Tercero Menu
                             <div className = "food-item"> 
                                 <h1 style={{fontSize : "60%"}}>Chocolate Cake</h1>
@@ -279,7 +281,7 @@ function SecondPage(){
             DDC, a 2022 Hackathon project that is centered around the goal of social good. This particular project focuses
             on improving the navigation and usage of the Dining Commons situated around Davis.
             <div className = "button">
-            <Button className="start" onClick={() => {displayComponentFour(false); displayComponentTwo(true); displayComponentThree(true);}}>Let's Eat!</Button>				
+            <Button className="start" onClick={() => {displayComponentOne(true); displayComponentFour(false); displayComponentThree(false); displayComponentThree(true);}}>Let's Eat!</Button>				
             </div>			
         </div>
         </Container>
