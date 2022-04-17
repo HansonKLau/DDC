@@ -36,7 +36,6 @@ html{
 }
 
 .bottom-btns{
-    background-color: #ffc519;
     display: flex;
 }
 
@@ -164,4 +163,18 @@ h3 {
 .no-border {
     border: none;
     table-layout: fixed;
+}
+
+#toggle-ingredients, #reset-btn {
+    background: none;
+    color: white;
+    margin-top: 10px;
+}
+
+#diet-types-btn, #allergy-btn, #dc-btn {
+    background-color: #fbf6e5;
+}
+
+#dc-table, #allergy-table, #diet-types-table {
+    background-color: #fbf6e5;
 }
