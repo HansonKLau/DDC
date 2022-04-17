@@ -36,6 +36,7 @@ html{
 }
 
 .bottom-btns{
+    background-color: #ffc519;
     display: flex;
 }
 
@@ -131,6 +132,13 @@ button {
     border-radius: 4px;
 }
 
+.filter-btn {
+    background-color: #ffc519;
+}
+
+
+
+
 #diet-types-btn {
     border-bottom: none;
 }
@@ -151,15 +159,6 @@ h3 {
     position: absolute;
     top: 50px;
     left: 40px;
-}
-
-.filter-btn {
-    background: #ffc519;
-}
-
-.reset-btn {
-    background-color: transparent;
-    border: none;
 }
 
 .no-border {
