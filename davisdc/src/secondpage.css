@@ -25,9 +25,11 @@ html{
 
 .Menu{
     font-size: 40px;
-    margin-top: 50px;
-    margin-left: 400px;
-    height: 500px;
+    position: absolute;
+    top: 50px;
+    margin-top: 100px;
+    margin-left: 450px;
+    height: 600px;
     width: 800px;
     background-color: #fbf6e5;
     border-radius: 5px;
