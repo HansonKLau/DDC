@@ -194,7 +194,8 @@ function SecondPage(){
                     <div className = "terceroPNG">
                     <img src = {Tercero} width={300} height={150}/>
                     </div>
-                    <button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true);}}>Tercero</button>				
+                    <button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true);  
+                    }}>Tercero</button>				
                     <div className = "segundoPNG">
                     <img src = {Segundo} width={300} height={150}/>
                     </div>
@@ -279,24 +280,24 @@ function SecondPage(){
                 <tbody>
                     <tr>
                         <td>
-                            <button id="tercero" className="filter-btn"  onClick={(e) => {e.preventDefault();  displayComponentFive(false);  displayComponentTwo(true); displayComponentSix(false); displayComponentSeven(false);}}> 
+                            <button id="tercero" className="filter-btn"  onClick={(e) => {e.preventDefault(); resetFilters(e);  displayComponentFive(false);  displayComponentTwo(true); displayComponentSix(false); displayComponentSeven(false);}}> 
                                 Tercero
                             </button>
                         </td>
                         <td>
-                            <button id="latitude" className="filter-btn"  onClick={(e) => {e.preventDefault();  displayComponentFive(true);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(false);}}> 
+                            <button id="latitude" className="filter-btn"  onClick={(e) => {e.preventDefault();  resetFilters(e); displayComponentFive(true);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(false);}}> 
                                 Latitude
                             </button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button id="segundo" className="filter-btn" onClick={(e) => {e.preventDefault();  displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(true);}}> 
+                            <button id="segundo" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(true);}}> 
                                 Segundo
                             </button>
                         </td>
                         <td>
-                            <button id="cuarto" className="filter-btn" onClick={(e) => {e.preventDefault();  displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(true); displayComponentSeven(false);}}> 
+                            <button id="cuarto" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(true); displayComponentSeven(false);}}> 
                                 Cuarto
                             </button>
                         </td>
