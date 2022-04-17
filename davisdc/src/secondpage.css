@@ -1,0 +1,55 @@
+.diningCommons{
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+
+.tecero{
+    width: 300px;
+    font-weight: 600;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.segundo{
+    width: 300px;
+    font-weight: 600;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.latitude{
+    font-weight: 600;
+    width: 300px;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.cuarto{
+    font-weight: 600;
+    width: 300px;
+    background-color: #022851;
+    color: #ffc519;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.Menu{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: black;
+}
+

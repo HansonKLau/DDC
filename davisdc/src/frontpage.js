@@ -3,10 +3,9 @@ import { Button, Form, Container, Row, Col} from 'react-bootstrap';
 import React, {useState, useEffect} from "react";
 
 
-function frontPage(){
+function FrontPage(){
     return (
     <Container className = "logo">
-    
         <div className = "front">
             <Row>
                 <Col xs = {10}>
@@ -57,4 +56,4 @@ function frontPage(){
 )
 }
 
-export default frontPage;
+export default FrontPage;
