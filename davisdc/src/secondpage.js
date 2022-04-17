@@ -139,6 +139,7 @@ function SecondPage(){
         e.preventDefault();
 
         // TODO: add way to switch DC's
+        resetFilters(e);
     }
 
     const resetFilters = (e) => {
