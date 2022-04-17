@@ -163,5 +163,5 @@ h3 {
 
 .no-border {
     border: none;
-    height: auto;
+    table-layout: fixed;
 }
