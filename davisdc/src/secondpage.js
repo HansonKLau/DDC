@@ -53,6 +53,19 @@ function SecondPage(){
         var ingredients = document.getElementsByClassName("ingredient");
         
         for (var i = 0; i < foodItems.length; i++) {
+            if (e.currentTarget.id == 'dairy') {
+                var milkProducts = [
+                    "milk",
+                    "cheese",
+                    "cream",
+                    "butter"
+                ]
+                for (var j = 0; j < milkProducts.length; j++) {
+                    if (ingredients[i].innerHTML.toLowerCase().includes(milkProducts[j])) {
+                        foodItems[i].hidden = true;
+                    }
+                }
+            }
             if (ingredients[i].innerHTML.toLowerCase().includes(e.currentTarget.id)) {
                 foodItems[i].hidden = true;
             }
@@ -126,11 +139,6 @@ function SecondPage(){
         e.preventDefault();
 
         // TODO: add way to switch DC's
-
-        // Invert color
-        const clickedBtn = document.querySelector('#' + e.currentTarget.id);
-        clickedBtn.style.backgroundColor = "#022851";
-        clickedBtn.style.color = "#ffc519";
     }
 
     const resetFilters = (e) => {
@@ -185,14 +193,62 @@ function SecondPage(){
                     <Row>
                         <div className = "Menu" style={{width: "800px"}}>
                             Tercero Menu
-                            <div className = "food-item"> 
-                                <h1 style={{fontSize : "60%"}}>Chocolate Cake</h1>
-                                <p className = "ingredient" style={{fontSize : "40%"}}>Chocolate, peanuts, and milk.</p>
-                            </div>
-                            <div className = "food-item"> 
-                                <h1 style={{fontSize : "60%"}}>Pizza</h1>
-                                <p className = "ingredient" style={{fontSize : "40%"}}>Pepperoni, dairy, cheese</p>
-                            </div>
+                            <table className='no-border'>
+                                <tr>
+                                <td>
+                                     <table className='no-border'>
+                                        <p>Breakfast</p>
+                                        <tr>
+                                        <div className = "food-item">
+                                            <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                            <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                        </div>
+                                        </tr>
+                                        <tr>
+                                            <div className = "food-item">
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            </div>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td className='no-border'>
+                                     <table className='no-border'>
+                                        <p>Lunch</p>
+                                        <tr>
+                                            <div className = "food-item">
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div className = "food-item">
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            </div>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                     <table className='no-border'>
+                                        <p>Dinner</p>
+                                        <tr>
+                                            <div className = "food-item">
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div className = "food-item">
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            </div>
+                                        </tr>
+                                        
+                                    </table>
+                                </td>
+                                </tr>
+                            </table>
                         </div>
                     </Row>
                 </Container>

@@ -127,3 +127,8 @@ h3 {
     background-color: transparent;
     border: none;
 }
+
+.no-border {
+    border: none;
+    height: auto;
+}
