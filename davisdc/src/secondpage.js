@@ -148,6 +148,18 @@ function SecondPage(){
         resetFilters(e);
     }
 
+    const dcToggleIng = (e) => { 
+        e.preventDefault();
+
+        var ingredients = document.getElementsByClassName("ingredient");
+        var toggleBtn = document.getElementById('toggle-ingredients');
+
+        for (var i = 0; i < ingredients.length; i++) {
+            ingredients[i].hidden = false;
+        }
+        toggleBtn.innerHTML = "Hide Ingredients";
+    }
+
     const toggleIng = (e) => {
         e.preventDefault();
 
@@ -305,24 +317,24 @@ function SecondPage(){
                 <tbody>
                     <tr>
                         <td>
-                            <button id="tercero" className="filter-btn"  onClick={(e) => {e.preventDefault(); resetFilters(e); toggleIng(e);  displayComponentFive(false);  displayComponentTwo(true); displayComponentSix(false); displayComponentSeven(false);}}> 
+                            <button id="tercero" className="filter-btn"  onClick={(e) => {e.preventDefault(); resetFilters(e); dcToggleIng(e);  displayComponentFive(false);  displayComponentTwo(true); displayComponentSix(false); displayComponentSeven(false);}}> 
                                 Tercero
                             </button>
                         </td>
                         <td>
-                            <button id="latitude" className="filter-btn"  onClick={(e) => {e.preventDefault();  resetFilters(e); toggleIng(e); displayComponentFive(true);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(false);}}> 
+                            <button id="latitude" className="filter-btn"  onClick={(e) => {e.preventDefault();  resetFilters(e); dcToggleIng(e); displayComponentFive(true);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(false);}}> 
                                 Latitude
                             </button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button id="segundo" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); toggleIng(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(true);}}> 
+                            <button id="segundo" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); dcToggleIng(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(false); displayComponentSeven(true);}}> 
                                 Segundo
                             </button>
                         </td>
                         <td>
-                            <button id="cuarto" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); toggleIng(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(true); displayComponentSeven(false);}}> 
+                            <button id="cuarto" className="filter-btn" onClick={(e) => {e.preventDefault();  resetFilters(e); dcToggleIng(e); displayComponentFive(false);  displayComponentTwo(false); displayComponentSix(true); displayComponentSeven(false);}}> 
                                 Cuarto
                             </button>
                         </td>
