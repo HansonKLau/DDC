@@ -222,8 +222,8 @@ function SecondPage(){
                             Tercero Menu
                             <table className='no-border'>
                                 <tr>
-                                <td>
-                                     <table className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
+                                     <table style={{border: 'none', height: "100%"}}>
                                         <p>Breakfast</p>
                                         <tr>
                                         <div className = "food-item">
@@ -233,8 +233,8 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td className='no-border'>
-                                     <table className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
+                                     <table style={{border: 'none', height: "100%"}}>
                                         <p>Lunch</p>
                                         <tr>
                                             <div className = "food-item">
@@ -244,8 +244,8 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
-                                     <table className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
+                                     <table style={{border: 'none', height: "100%"}}>
                                         <p>Dinner</p>
                                         <tr>
                                             <div className = "food-item">
@@ -456,7 +456,7 @@ function SecondPage(){
                             Latitude Menu
                             <table className='no-border'>
                                 <tr>
-                                <td>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Lunch</p>
                                         <tr>
@@ -467,7 +467,7 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Dinner</p>
                                         <tr>
@@ -499,7 +499,7 @@ function SecondPage(){
                             Cuarto
                             <table className='no-border'>
                                 <tr>
-                                <td>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Breakfast</p>
                                         <tr>
@@ -516,7 +516,7 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Lunch</p>
                                         <tr>
@@ -527,7 +527,7 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Dinner</p>
                                         <tr>
@@ -553,7 +553,7 @@ function SecondPage(){
                             Segundo
                             <table className='no-border'>
                                 <tr>
-                                <td>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Breakfast</p>
                                         <tr>
@@ -565,7 +565,7 @@ function SecondPage(){
 
                                     </table>
                                 </td>
-                                <td className='no-border'>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Lunch</p>
                                         <tr>
@@ -582,7 +582,7 @@ function SecondPage(){
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
+                                <td style={{verticalAlign: "top"}}>
                                      <table className='no-border'>
                                         <p>Dinner</p>
                                         <tr>
