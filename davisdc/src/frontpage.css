@@ -1,11 +1,11 @@
 .front{
     float: left;
-    margin-left: 190px;
+    margin-left: 180px;
     display: inline-block;
-    font-family: 'proxima-nova', sans-serif;
     transform:skew(20deg);
     background-color: #ffc519;
     height:1080px;
+    width:300px;
 }
 
 .logo{
@@ -61,6 +61,7 @@
 }
 
 .description{
+    font-weight: 600;
     padding-top: 50px;
     display: float right;
     width: 500px;
@@ -73,6 +74,7 @@
     background-color:#022851;
 }
 .start{
+    font-weight: 600;
     width: 300px;
     height: 100px;
     background-color:#022851;
