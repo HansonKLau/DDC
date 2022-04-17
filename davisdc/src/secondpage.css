@@ -5,17 +5,23 @@
 }
 
 .selection{
-    background-color: #dbeaf7;
+    background-color: #022851;
     height: 100%
 }
 
 html{
-    background-color: #dbeaf7;
-
+    background-color: #022851;
 }
 
-
-
+.description{
+    font-weight: 600;
+    padding-top: 50px;
+    display: float right;
+    color: white;
+    width: 500px;
+    margin-left: 550px;
+    font-size: 20px;
+}
 
 .Menu{
     font-size: 40px;
@@ -81,17 +87,17 @@ button {
 .tercero{
     width: 300px;
     font-weight: 600;
-    background-color: #022851;
-    color: #ffc519;
+    background-color: #ffc519;
+    color: #022851;
     margin-bottom: 50px;
-    border-radius: 0px;
+    border-radius: 4px;
 }
 
 .segundo{
     width: 300px;
     font-weight: 600;
-    background-color: #022851;
-    color: #ffc519;
+    background-color: #ffc519;
+    color: #022851;
     margin-bottom: 50px;
     border-radius: 0px;
 }
@@ -99,8 +105,8 @@ button {
 .latitude{
     font-weight: 600;
     width: 300px;
-    background-color: #022851;
-    color: #ffc519;
+    background-color: #ffc519;
+    color: #022851;
     margin-bottom: 50px;
     border-radius: 0px;
 }
@@ -108,13 +114,14 @@ button {
 .cuarto{
     font-weight: 600;
     width: 300px;
-    background-color: #022851;
-    color: #ffc519;
+    background-color: #ffc519;
+    color: #022851;
     margin-bottom: 50px;
     border-radius: 0px;
 }
 
 .start{
+    margin-top: 50px;
     font-weight: 600;
     font-size: 30px;
     width: 300px;
