@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/HansonKLau/DDC/static/css/main.18e1c3bf.css",
-    "main.js": "/HansonKLau/DDC/static/js/main.bdaf8aa9.js",
+    "main.css": "/HansonKLau/DDC/static/css/main.b06303bd.css",
+    "main.js": "/HansonKLau/DDC/static/js/main.36df2d56.js",
     "static/js/787.08c2dea0.chunk.js": "/HansonKLau/DDC/static/js/787.08c2dea0.chunk.js",
     "static/media/tercerodc.jpg": "/HansonKLau/DDC/static/media/tercerodc.c584ff2586fee6841d11.jpg",
     "static/media/segundodc.jpg": "/HansonKLau/DDC/static/media/segundodc.9f7bf6dd5ad5a51e6d98.jpg",
     "static/media/cuartodc.jpg": "/HansonKLau/DDC/static/media/cuartodc.966b09410c56459c1d82.jpg",
     "static/media/latitudedc.jpg": "/HansonKLau/DDC/static/media/latitudedc.67ae195512687f5ea8c5.jpg",
     "index.html": "/HansonKLau/DDC/index.html",
-    "main.18e1c3bf.css.map": "/HansonKLau/DDC/static/css/main.18e1c3bf.css.map",
-    "main.bdaf8aa9.js.map": "/HansonKLau/DDC/static/js/main.bdaf8aa9.js.map",
+    "main.b06303bd.css.map": "/HansonKLau/DDC/static/css/main.b06303bd.css.map",
+    "main.36df2d56.js.map": "/HansonKLau/DDC/static/js/main.36df2d56.js.map",
     "787.08c2dea0.chunk.js.map": "/HansonKLau/DDC/static/js/787.08c2dea0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e1c3bf.css",
-    "static/js/main.bdaf8aa9.js"
+    "static/css/main.b06303bd.css",
+    "static/js/main.36df2d56.js"
   ]
 }
