@@ -227,15 +227,9 @@ function SecondPage(){
                                         <p>Breakfast</p>
                                         <tr>
                                         <div className = "food-item">
-                                            <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                            <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            <p style={{fontSize: "15px", fontWeight: 'bold'}}>Hard Boiled Eggs</p>
+                                            <p className = "ingredient" style={{fontSize : "10px"}}>Cage-free, hard boiled eggs</p>
                                         </div>
-                                        </tr>
-                                        <tr>
-                                            <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
-                                            </div>
                                         </tr>
                                     </table>
                                 </td>
@@ -244,14 +238,8 @@ function SecondPage(){
                                         <p>Lunch</p>
                                         <tr>
                                             <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
-                                            </div>
-                                        </tr>
-                                        <tr>
-                                            <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>BBQ Beef Roll</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Beef tossed with BBQ & sriracha sauce, served on a roll with a coleslaw</p>
                                             </div>
                                         </tr>
                                     </table>
@@ -261,8 +249,8 @@ function SecondPage(){
                                         <p>Dinner</p>
                                         <tr>
                                             <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Herb Roasted Sweet Potatoes</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Red potatoes, lemon juice, canola/olive oil blend, kosher salt, fresh Italian parsley, thyme, Mediterranean oregano</p>
                                             </div>
                                         </tr>
                                         <tr>
@@ -271,7 +259,6 @@ function SecondPage(){
                                                 <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
                                             </div>
                                         </tr>
-                                        
                                     </table>
                                 </td>
                                 </tr>
@@ -471,45 +458,22 @@ function SecondPage(){
                                 <tr>
                                 <td>
                                      <table className='no-border'>
-                                        <p>Breakfast</p>
+                                        <p>Lunch</p>
                                         <tr>
                                         <div className = "food-item">
-                                            <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                            <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                            <p style={{fontSize: "15px", fontWeight: 'bold'}}>Frijoles Sabrosos</p>
+                                            <p className = "ingredient" style={{fontSize : "10px"}}>CANNED PINTO BEANS (prepared pinto beans, water, salt, calcium chloride, calcium disodium EDTA);TOMATO;YELLOW ONION;CHIPOTLE PEPPER IN ADOBO SAUCE (water, tomato paste, dried Chipotle peppers, distilled vinegar, corn oil. Contains 2% or less of iodized salt, corn starch, onion powder, garlic powder, spices);CANOLA OIL;GARLIC;KOSHER SALT;Spice, Oregano Leaf, Mexican;</p>
                                         </div>
-                                        </tr>
-                                        <tr>
-                                            <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
-                                            </div>
                                         </tr>
                                     </table>
                                 </td>
                                 <td className='no-border'>
                                      <table className='no-border'>
-                                        <p>Lunch</p>
-                                        <tr>
-                                            <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
-                                            </div>
-                                        </tr>
-                                        <tr>
-                                            <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
-                                            </div>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td>
-                                     <table className='no-border'>
                                         <p>Dinner</p>
                                         <tr>
                                             <div className = "food-item">
-                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chocolate Cake</p>
-                                                <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
+                                                <p style={{fontSize: "15px", fontWeight: 'bold'}}>Chicken Tikka Masala</p>
+                                                <p className = "ingredient" style={{fontSize : "10px"}}>Boneless skinless chicken thigh, tomato paste, Tandoori marinade (nonfat plain yogurt, canola oil, spices, lime juice, garlic ginger, tapioca starch, salt, cilantro, jalapeno pepper, annatto, beet powder), heavy whipping cream, clarified butter, ketchup, Indian chili powder blend (paprika, cayenne pepper), garlic, ginger, fresh cilantro, kosher salt, Garam Masala spice, beet sugar</p>
                                             </div>
                                         </tr>
                                         <tr>
@@ -518,7 +482,6 @@ function SecondPage(){
                                                 <p className = "ingredient" style={{fontSize : "10px"}}>Chocolate, peanuts, and milk.</p>
                                             </div>
                                         </tr>
-                                        
                                     </table>
                                 </td>
                                 </tr>
