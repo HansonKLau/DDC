@@ -1,55 +1,83 @@
-.side{
-    margin-left: 500px;
-    display:inline-block;
+.front{
+    float: left;
+    margin-left: 190px;
+    display: inline-block;
+    font-family: 'proxima-nova', sans-serif;
+    transform:skew(20deg);
+    background-color: #ffc519;
+    height:1080px;
 }
 
-.front{
-    display: inline-block;
-    width: 33%;
-    font-family: 'proxima-nova', sans-serif;
-    transform: skew(20deg);
-    height: 650px;
-    background-color:#13639e;
-    background-image: linear-gradient(to left, #13639e, #0d7ccb);
+.logo{
+    background-color: #022851;
+    height:1080px;
 }
 
 
 .DInDavis{
+    font-weight: 600;
     transform: skew(-20deg);
-    color: #FFC519;
+    color: #022851;
     display: inline-block;
     font-size: 125px;
 }
 .AvisInDavis{
-    color: black;
+    font-weight: 400;
     display: inline-block;
     font-size: 50px;
 }
 
 .DInDining{
+    font-weight: 600;
     transform: skew(-20deg);
     color: #022851;
     display: inline-block;
     font-size: 125px;
 }
 .IningInDining{
-    color: black;
+    font-weight: 400;
     display: inline-block;
     font-size: 50px
 }
 
 .CInCommons{
+    font-weight: 600;
     transform: skew(-20deg);
-    color:#FFC519;
+    color: #022851;
     display: inline-block;
     font-size: 125px;
 }
 .OmmonsInCommon{
-    color: black;
+    font-weight: 400;
     display: inline-block;
     font-size: 50px
 }
 
-.tecero{
-    display: inline-block;
+.side{
+    background-color: gray;
+    margin-left: 300px;
+    width: 300px;
+    display:absolute;
 }
+
+.description{
+    padding-top: 50px;
+    display: float right;
+    width: 500px;
+    margin-left: 550px;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    margin-top: 100px;
+    background-color:#022851;
+}
+.start{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    font-size: 60px;
+    background-color:#022851;
+}
+
+

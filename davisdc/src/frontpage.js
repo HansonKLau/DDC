@@ -38,22 +38,14 @@ function FrontPage(){
             </Col>
             </Row>
         </div>  
-        <div className = "side">
-            <div className = "Tecero">
-                Tecero
-            </div>
-            <div className = "Latitude">
-                Latitude
-            </div>
-            <div className = "Segundo">
-                Segundo
-            </div>
-            <div className = "Cuarto">
-                Cuarto
-            </div>
+        <div className = "description">
+            DDC, a 2022 Hackathon project that is centered around the goal of social good. This particular project focuses
+            on improving the navigation and usage of the Dining Commons situated around Davis.
+            <div className = "button">
+            </div>			
         </div>
         </Container>
-)
+    )
 }
 
 export default FrontPage;
