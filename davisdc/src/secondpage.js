@@ -277,7 +277,7 @@ function SecondPage(){
         }
         { componentThree && 
         <div id="filter-div">
-        <form className="dc-group">
+        <form className="dc-group" style={{borderBottom : "none"}}>
             <button id="dc-btn" onClick={handleToggle}>
                 <h3>Dining Commons</h3>
             </button><br/>
@@ -312,9 +312,6 @@ function SecondPage(){
                 </div>
             </table>
         </form>
-        <h2 className="divider">
-            Dietary Restrictions
-        </h2>
         <form className="allergy-group">
             <button id='allergy-btn' onClick={handleToggle}>
                 <h3>Allergies</h3>
