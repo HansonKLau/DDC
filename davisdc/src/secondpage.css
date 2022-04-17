@@ -104,6 +104,15 @@ button {
     border-radius: 0px;
 }
 
+.start{
+    font-weight: 600;
+    width: 300px;
+    background-color: #ffc519;
+    color: #022851;
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+
 #diet-types-btn {
     border-bottom: none;
 }

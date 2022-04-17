@@ -144,7 +144,6 @@ function SecondPage(){
 
     const applyDCFilter = (e) => {
         e.preventDefault();
-
         // TODO: add way to switch DC's
         resetFilters(e);
     }
@@ -175,21 +174,21 @@ function SecondPage(){
                     <div className = "terceroPNG">
                     <img src = {Tercero} width={300} height={150}/>
                     </div>
-                    <Button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true);}}>Tercero</Button>				
+                    <button className="tercero" onClick={() => {displayComponentOne(false); displayComponentTwo(true);}}>Tercero</button>				
                     <div className = "segundoPNG">
                     <img src = {Segundo} width={300} height={150}/>
                     </div>
-                    <Button className="segundo" onClick={() => {displayComponentOne(false); displayComponentSeven(true);}}>Segundo</Button>				
+                    <button className="segundo" onClick={() => {displayComponentOne(false); displayComponentSeven(true);}}>Segundo</button>				
                     </Col>
                 <Col xs = {8}>
                 <div className = "LatitudePNG">
                 <img src = {Latitude} width={300} height={150}/>
                     </div>
-                    <Button className="latitude" onClick={() => {displayComponentOne(false); displayComponentFive(true);}}>Latitude</Button>				
+                    <button className="latitude" onClick={() => {displayComponentOne(false); displayComponentFive(true);}}>Latitude</button>				
                      <div className = "CuartoPNG">
                      <img src = {Cuarto} width={300} height={150}/>
                     </div>
-                    <Button className="cuarto" onClick={() => {displayComponentOne(false); displayComponentSix(true);}}>Cuarto</Button>				
+                    <button className="cuarto" onClick={() => {displayComponentOne(false); displayComponentSix(true);}}>Cuarto</button>				
                     </Col>
                 </Row>
             </div>
@@ -435,7 +434,7 @@ function SecondPage(){
             DDC, a 2022 Hackathon project that is centered around the goal of social good. This particular project focuses
             on improving the navigation and usage of the Dining Commons situated around Davis.
             <div className = "button">
-            <Button className="start" onClick={() => {displayComponentOne(true); displayComponentFour(false); displayComponentThree(false); displayComponentThree(true);}}>Let's Eat!</Button>				
+            <button className="start" onClick={() => {displayComponentOne(true); displayComponentFour(false); displayComponentThree(false); displayComponentThree(true);}}>Let's Eat!</button>				
             </div>			
         </div>
         </Container>
