@@ -142,6 +142,26 @@ function SecondPage(){
         resetFilters(e);
     }
 
+    const toggleIng = (e) => {
+        e.preventDefault();
+
+        var ingredients = document.getElementsByClassName("ingredient");
+        var toggleBtn = document.getElementById('toggle-ingredients');
+        
+        if (toggleBtn.innerHTML == "Hide Ingredients") {
+            for (var i = 0; i < ingredients.length; i++) {
+                ingredients[i].hidden = true;
+            }
+            toggleBtn.innerHTML = "Show Ingredients";
+        } else {
+            for (var i = 0; i < ingredients.length; i++) {
+                ingredients[i].hidden = false;
+            }
+            toggleBtn.innerHTML = "Hide Ingredients";
+        }
+        
+    }
+
     const resetFilters = (e) => {
         e.preventDefault();
 
@@ -385,9 +405,14 @@ function SecondPage(){
                 </div>
             </table>
         </form>
-        <button id="reset-btn" onClick={resetFilters}>
-            Reset Filters
-        </button>
+        <div className = "bottom-btns"> 
+            <button id="reset-btn" onClick={resetFilters}>
+                Reset Filters
+            </button>
+            <button id="toggle-ingredients" onClick={toggleIng}>
+                Hide Ingredients
+            </button>
+        </div>
     </div>
         }
         </div>

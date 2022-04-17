@@ -53,6 +53,10 @@
     border-color: black;
 }
 
+.bottom-btns{
+    display: flex;
+}
+
 label {
     padding-left: 5px;
 }
