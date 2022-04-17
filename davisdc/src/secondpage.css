@@ -44,7 +44,7 @@
 .Menu{
     font-size: 40px;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 400px;
     height: 500px;
     width: 800px;
     background-color: white;
@@ -117,4 +117,13 @@ h3 {
     position: absolute;
     top: 50px;
     left: 40px;
+}
+
+.filter-btn {
+    background: #ffc519;
+}
+
+.reset-btn {
+    background-color: transparent;
+    border: none;
 }

@@ -45,6 +45,29 @@ function SecondPage(){
         }
     }
 
+    const applyFilter = (e) => {
+        e.preventDefault();
+        console.log(e.currentTarget.id);
+
+        var foodItems = document.querySelectorAll(".food-item");
+        var ingredients = document.getElementsByClassName("ingredient");
+        
+        for (var i = 0; i < foodItems.length; i++) {
+            if (ingredients[i].innerHTML.toLowerCase().includes(e.currentTarget.id)) {
+                foodItems[i].hidden = true;
+            }
+        }
+    }
+
+    const resetFilters = (e) => {
+        e.preventDefault();
+
+        var foodItems = document.querySelectorAll(".food-item");
+        for (var i = 0; i < foodItems.length; i++) {
+            foodItems[i].hidden = false;
+        }
+    }
+
     return (
     <div className = "selection">
         { componentOne &&
@@ -79,8 +102,12 @@ function SecondPage(){
             <div>
                 <Container>
                     <Row>
-                        <div className = "Menu">
+                        <div className = "Menu" style={{width: "800px"}}>
                             Tercero Menu
+                            <div className = "food-item"> 
+                                <h1 style={{fontSize : "60%"}}>Chocolate Cake</h1>
+                                <p className = "ingredient" style={{fontSize : "40%"}}>Chocolate, peanuts, and milk.</p>
+                            </div>
                         </div>
                     </Row>
                 </Container>
@@ -131,42 +158,50 @@ function SecondPage(){
                 <tbody>
                     <tr>
                         <td>
-                            <input type="checkbox" id="dairy" name="dairy" value="dairy"/>
-                            <label htmlFor="dairy"> Dairy</label>
+                            <button id="dairy" className="filter-btn" onClick={applyFilter}> 
+                                Dairy
+                            </button>
                         </td>
                         <td>
-                            <input type="checkbox" id="peanut" name="peanut" value="peanut"/>
-                            <label htmlFor="peanut"> Peanut</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" id="egg" name="egg" value="egg"/>
-                            <label htmlFor="egg"> Egg</label>
-                        </td>
-                        <td>
-                            <input type="checkbox" id="shellfish" name="shellfish" value="shellfish"/>
-                            <label htmlFor="shellfish"> Shellfish</label>
+                            <button id="peanut" className="filter-btn" onClick={applyFilter} >
+                                Peanut
+                            </button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" id="tree-nuts" name="tree-nuts" value="tree-nuts"/>
-                            <label htmlFor="tree-nuts"> Tree nuts</label>
+                            <button id="egg" className="filter-btn" onClick={applyFilter} >
+                                Egg
+                            </button>
                         </td>
                         <td>
-                            <input type="checkbox" id="fish" name="fish" value="fish"/>
-                            <label htmlFor="fish"> Fish</label>
+                            <button id="shellfish" className="filter-btn" onClick={applyFilter} >
+                                Shellfish
+                            </button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" id="wheat" name="wheat" value="wheat"/>
-                            <label htmlFor="wheat"> Wheat</label>
+                            <button id="tree-nuts" className="filter-btn" onClick={applyFilter} >
+                                Tree nuts
+                            </button>
                         </td>
                         <td>
-                            <input type="checkbox" id="soybeans" name="soybeans" value="soybeans"/>
-                            <label htmlFor="soybeans"> Soybeans</label>
+                            <button id="fish" className="filter-btn" onClick={applyFilter}> 
+                                Fish
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="wheat" className="filter-btn" onClick={applyFilter}>
+                                Wheat
+                            </button>
+                        </td>
+                        <td>
+                            <button id="soybeans" className="filter-btn" onClick={applyFilter} >
+                                Soybeans
+                            </button>
                         </td>
                     </tr>
                 </tbody>
@@ -201,6 +236,9 @@ function SecondPage(){
                 </div>
             </table>
         </form>
+        <button id="reset-btn" onClick={resetFilters}>
+            Reset Filters
+        </button>
     </div>
         }
         </div>
