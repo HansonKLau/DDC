@@ -5,7 +5,13 @@
 }
 
 .selection{
-    background-color: #022851;
+    background-color: #dbeaf7;
+    height: 100%
+}
+
+html{
+    background-color: #dbeaf7;
+
 }
 
 
@@ -110,6 +116,7 @@ button {
 
 .start{
     font-weight: 600;
+    font-size: 30px;
     width: 300px;
     background-color: #ffc519;
     color: #022851;
@@ -151,8 +158,4 @@ h3 {
 .no-border {
     border: none;
     height: auto;
-}
-
-html {
-    background-color: #022851;
 }
