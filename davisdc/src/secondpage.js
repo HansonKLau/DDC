@@ -102,17 +102,12 @@ function SecondPage(){
             <div>
                 <Container>
                     <Row>
-<<<<<<< HEAD
-                        <div className = "Menu" style={{width: "800px"}}>
+                        <div className = "Menu">
                             Tercero Menu
                             <div className = "food-item"> 
                                 <h1 style={{fontSize : "60%"}}>Chocolate Cake</h1>
                                 <p className = "ingredient" style={{fontSize : "40%"}}>Chocolate, peanuts, and milk.</p>
                             </div>
-=======
-                        <div className = "Menu">
-                            Tercero Menu
->>>>>>> 6b32019ce25f5aeb1d9d282621fbdf675d13c356
                         </div>
                     </Row>
                 </Container>
